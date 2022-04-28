@@ -11,34 +11,39 @@
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
     <title>Rappahannock Coffee</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
+    
 </head>
 <body>
   <!-- Added Navbar Fragment with External Nav.JS File-->
     <script id="replace_with_navbar" src="nav.js"></script>
 <hr> 
   
-     <!-- Slideshow container -->
+    <!-- Slideshow container -->
     <div class="slideshow-container">
     
         <!-- Full-width images with number and caption text -->
         <div class="mySlides">
           <div class="numbertext">1 / 3</div>
-          <img src="images/img1.jpg" style="width:100%">
+          <img src="images/rappahannockheader3.jpeg" style="width:100%">
           <div class="text"></div>
         </div>
       
         <div class="mySlides">
           <div class="numbertext">2 / 3</div>
-          <img src="images/img2.jpg" style="width:100%">
+          <img src="images/rappahannockheader5.jpeg" style="width:100%">
           <div class="text"></div>
         </div>
       
         <div class="mySlides">
           <div class="numbertext">3 / 3</div>
-          <img src="images/img3.jpg" style="width:100%">
+          <img src="images/rappahannockheader6.jpeg" style="width:100%">
           <div class="text"></div>
         </div>
       
@@ -55,7 +60,7 @@
         <span class="dot" onclick="currentSlide(3)"></span> 
       </div>
 <hr>  
-    <div class="container-md">
+    <div class="container-md" style="padding: 100px;">
       
         <h1 style="text-align: center; margin-top: 2rem;">COLUMBIA PIKE'S FINEST ROASTER<h1>
         <h3 style="text-align: center;margin-bottom: 2rem;">Situated on historic Columbia Pike, Rappahannock Coffee
@@ -67,19 +72,19 @@
 
 <hr>
 
-<div class="container-md">
+<div class="container-md" style="padding: 75px;">
   <div style="text-align: center;"><h2>Services</h2></div>
     <div class="row">
         <div class="column">
-          <img class="imgMeasure" src="images/roasting.jpg" alt="Snow" style="width:100%">
+          <img class="imgMeasure" src="images/roasting.jpg" alt="roasting" style="width:100%">
           <p>Roasting</p>
         </div>
         <div class="column">
-          <img class="imgMeasure" src="images/beans.jpg" alt="Forest" style="width:100%">
+          <img class="imgMeasure" src="images/beans.jpg" alt="beans" style="width:100%">
           <p>Bean Sales</p>
         </div>
         <div class="column">
-          <img class="imgMeasure" src="images/cappo2.jpg" alt="Mountains" style="width:100%">
+          <img class="imgMeasure" src="images/cappo2.jpg" alt="cappuccino" style="width:100%">
           <p>Drink Guide</p>
         </div>
       </div>
@@ -87,9 +92,41 @@
     
 <hr>
     
-<div id="mapid"></div>
+<footer class="footer bg-dark py-5">
+
+
+  <div id="mapid"></div>
+
+
    
-<hr>
+       
+      <div class="row">
+        <div class="column" id="footerColumn1">
+          <h1>
+            Rappahannock Coffee
+          </h1>
+          <p>&copy; Group 4 | 2022</p>
+        </div>
+
+        <div class="column" id="footerColumnList">
+          <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="beans.html">Bean Sales</a></li>
+                <li><a href="drinks.html">Drink Menu</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div class="column social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+      </div>
+        
+
+</footer>
       
 
       
@@ -144,7 +181,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
-
 
 
 

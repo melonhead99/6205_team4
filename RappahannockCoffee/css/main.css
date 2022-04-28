@@ -11,7 +11,7 @@ ul {
     padding-left: 0rem;
 }
 
-li{
+.topnav li{
     margin: auto;
     display: inline;
     padding: 15px;
@@ -27,6 +27,16 @@ hr {
   margin-right: 2rem;
   margin-left: 2rem;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
 
 #mapid { 
     height: 400px;
@@ -137,6 +147,62 @@ hr {
   animation-duration: 1.5s;
 }
 
+/* Footer */
+.footer .social a{
+  margin: 0 10px;
+}
+
+.social{
+  padding: 50px 0 0 32px;
+  display: block;
+
+}
+
+.footer h1 {
+  padding-top: 50px;
+  color: #fff;
+
+}
+
+.footer ul{
+  padding-top: 50px;
+  color: #fff;
+}
+
+.footer li{
+  margin: auto;
+  font-size: 24px;
+
+}
+
+.footer .row a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer p {
+  color: #fff;
+}
+
+#footerColumn1{
+  padding-left: 50px;
+}
+
+#footerColumn1 p{
+  text-align: left;
+}
+
+
+#footerColumnList{
+  display: block;
+  padding-left: 50px;
+}
+
+#footerColumnList li{
+  text-align: left;
+}
+
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -148,11 +214,3 @@ hr {
 }
 
 
-.row {
-    display: flex;
-  }
-  
-.column {
-    flex: 33.33%;
-    padding: 5px;
-  }
