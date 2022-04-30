@@ -1,0 +1,40 @@
+<!-- Columns of Navbar -->
+<div class="container-md">
+    <div class="row">
+      <div class="column">
+        <p style="font-size: small; margin-top: 2rem;">Hours: <br>M-F: 0730-2100<br>Sat: 0800-1700<br>Sun: Closed</p>
+      </div>
+      <div class="column">  
+       <img src="images/rappahannockLogo.jpg" class="headerImage">
+      </div>
+      <div class="column">
+        <p style="font-size: small; margin-top: 2rem;">Address: <br>2406 Columbia Pike<br>Arlington, VA<br>22204</p>
+      </div>    
+    </div>
+    
+  </div>
+  
+   <!--Navbar Links -->   
+       <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="#Subscribe_Save">Subscribe & Save</a>
+            <a href="#Gear_Gifts">Gear & Gifts</a>
+            <a href="#Visit">Visit</a>
+            <a href="#Wholesale">Wholesale</a>
+            <a href="#Info">Info</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+       </div>
+<!-- Responsive JS Function for Navbar Links -->
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
