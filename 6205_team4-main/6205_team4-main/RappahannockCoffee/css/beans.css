@@ -126,6 +126,10 @@ img{
     align-items: center;
 }
 
+.product-info p {
+    font-size: .85rem
+}
+
 .product-name{
     color: saddlebrown;
     display: block;
